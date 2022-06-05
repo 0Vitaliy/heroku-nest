@@ -7,7 +7,7 @@ import { TrackModule } from './track/track.module';
   imports: [
     MongooseModule.forRoot('mongodb+srv://Vitalii:admin@cluster0.1wgh9.mongodb.net/music?retryWrites=true&w=majority'),
     TrackModule,
-    AuthModule
+    // AuthModule
   ],
   controllers: [],
   providers: [],
