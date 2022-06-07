@@ -13,7 +13,7 @@ export class AuthController {
   async login(@Body() req) {
     return this.authService.login(req);
   }
-  @Post('registr')
+  @Post('auth/sign-up')
   async register(@Body() req: CreateUserDto) {
     return this.authService.createUser(req);
   }
